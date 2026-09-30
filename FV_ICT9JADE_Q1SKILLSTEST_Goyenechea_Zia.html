@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Robotics Club Application Form</title>
+    <!-- Linking the External CSS file -->
+    <link rel="stylesheet" href="styles_Q1SkillsTest.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo Image -->
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/OB_Montessori_Center_Logo.png" alt="OBMC Logo" class="logo">
+        </div>
+
+        <!-- Heading -->
+        <h1><u>OBMC Robotics Club<br>Application Form</u></h1>
+
+        <!-- Paragraph Introduction -->
+        <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+
+        <!-- Application Form -->
+        <form action="#" method="POST">
+            
+            <!-- Input Field: Full Name -->
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <!-- Input Field: Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Dropdown: Grade Level -->
+            <label for="grade">Grade Level:</label>
+            <select id="grade" name="grade">
+                <option value="Grade 7">Grade 7</option>
+                <option value="Grade 8">Grade 8</option>
+                <option value="Grade 9">Grade 9</option>
+                <option value="Grade 10">Grade 10</option>
+            </select>
+
+            <!-- Radio Buttons: Gender -->
+            <label>Gender:</label>
+            <div class="inline-group">
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male" class="inline-label">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female" class="inline-label">Female</label>
+            </div>
+
+            <!-- Checkboxes: Areas of Interest / Skills -->
+            <label>What are your skills?</label>
+            <div class="inline-group">
+                <input type="checkbox" id="coding" name="skills" value="Coding">
+                <label for="coding" class="inline-label">Coding</label>
+
+                <input type="checkbox" id="design" name="skills" value="Design">
+                <label for="design" class="inline-label">Design</label>
+
+                <input type="checkbox" id="electronics" name="skills" value="Electronics">
+                <label for="electronics" class="inline-label">Electronics</label>
+            </div>
+
+            <!-- Textarea: Reason for joining -->
+            <label for="reason">Tell us why you want to join:</label>
+            <textarea id="reason" name="reason" rows="4"></textarea>
+
+            <!-- Unordered List -->
+            <h3>Top Robotics Activities We Offer:</h3>
+            <ul>
+                <li>Line Following Robots</li>
+                <li>Obstacle Avoidance Programming</li>
+                <li>Light Following Robot</li>
+            </ul>
+
+            <!-- Description List -->
+            <dl>
+                <dt><strong>Robotics Club Goal:</strong></dt>
+                <dd>To inspire young innovators through hands-on STEM and robotics learning.</dd>
+            </dl>
+
+            <!-- Ordered List with Hyperlinks -->
+            <h3>Helpful Links:</h3>
+            <ol>
+                <li><a href="https://www.robotics.org" target="_blank">Robotics.org</a></li>
+                <li><a href="https://www.firstinspires.org/robotics/frc" target="_blank">FIRST Robotics</a></li>
+            </ol>
+
+            <!-- Submit Button -->
+            <div class="submit-container">
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Banner Image (Right side) -->
+    <div class="side-image">
+        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a" alt="Robot">
+    </div>
+
+</body>
+</html>
